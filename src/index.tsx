@@ -3,6 +3,19 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {sum} from './03/03';
+
+// const sentense = 'Hello my friend!';
+// const sentense2 = 'JS - the best   programming language.';
+//
+// console.log(splitIntoWords(sentense));
+// console.log(splitIntoWords(sentense2));
+//
+// console.log(sum(3, 5));
+// console.log(mult(3, 5));
+
+console.log(sum(3, 5));
+
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
