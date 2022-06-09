@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {sum} from './03/03';
 
+
 // const sentense = 'Hello my friend!';
 // const sentense2 = 'JS - the best   programming language.';
 //
