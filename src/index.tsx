@@ -4,13 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {sum} from './03/03';
+import {User} from './06-callback-onclick/06-callbacks';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    {/*<App />*/}
+      <User/>
   </React.StrictMode>
 );
 
